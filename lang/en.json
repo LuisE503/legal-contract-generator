@@ -1,0 +1,290 @@
+{
+    "meta": {
+        "title": "LegalForge — Professional Contract Generator",
+        "description": "Generate professional legal contracts from customizable templates. Export to PDF or Markdown. Free, open-source, and 100% client-side."
+    },
+    "appName": "LegalForge",
+    "nav": {
+        "home": "Home",
+        "templates": "Templates",
+        "editor": "Editor"
+    },
+    "hero": {
+        "badge": "100% Free & Open Source",
+        "title": "Generate Professional Legal Contracts in Minutes",
+        "subtitle": "Choose from 10+ customizable templates, fill in your details, and export to PDF or Markdown. Everything runs in your browser — no data is ever sent to a server.",
+        "cta": "Browse Templates",
+        "ctaEditor": "Custom Editor",
+        "statTemplates": "Templates",
+        "statLanguages": "Languages",
+        "statServers": "Servers Needed"
+    },
+    "features": {
+        "title": "How It Works",
+        "step1Title": "1. Choose a Template",
+        "step1Desc": "Browse our library of 10+ professional contract templates covering NDAs, services, sales, and more.",
+        "step2Title": "2. Fill in Details",
+        "step2Desc": "Enter party names, dates, amounts, and select optional clauses. See a live preview as you type.",
+        "step3Title": "3. Export & Use",
+        "step3Desc": "Download your contract as a professional PDF or Markdown file. Ready for review and signatures."
+    },
+    "disclaimer": {
+        "text": "This tool generates contract templates for informational purposes only. It does not provide legal advice. Always consult a qualified attorney before signing any legal document."
+    },
+    "templates": {
+        "title": "Contract Templates",
+        "subtitle": "Select a template to start generating your contract",
+        "filterAll": "All",
+        "filterNDA": "NDA",
+        "filterServices": "Services",
+        "filterCommercial": "Commercial",
+        "filterEmployment": "Employment",
+        "nda_mutual": {
+            "name": "Mutual NDA",
+            "description": "A bilateral non-disclosure agreement where both parties agree to protect shared confidential information.",
+            "tags": ["NDA", "Confidentiality", "Bilateral"]
+        },
+        "nda_unilateral": {
+            "name": "Unilateral NDA",
+            "description": "A one-way confidentiality agreement where one party discloses information and the other agrees to keep it secret.",
+            "tags": ["NDA", "Confidentiality", "One-way"]
+        },
+        "freelance_services": {
+            "name": "Freelance Services",
+            "description": "An independent contractor agreement covering scope of work, payment terms, deadlines, and intellectual property.",
+            "tags": ["Services", "Freelance", "Contractor"]
+        },
+        "consulting": {
+            "name": "Consulting Agreement",
+            "description": "A professional engagement contract for consulting services with deliverables, rates, and confidentiality terms.",
+            "tags": ["Services", "Consulting", "Professional"]
+        },
+        "sale_of_goods": {
+            "name": "Sale of Goods",
+            "description": "A purchase agreement covering product specifications, pricing, delivery terms, and warranty conditions.",
+            "tags": ["Commercial", "Sale", "Products"]
+        },
+        "lease_rental": {
+            "name": "Lease / Rental Agreement",
+            "description": "A property rental contract with terms for rent, deposits, maintenance responsibilities, and termination conditions.",
+            "tags": ["Commercial", "Lease", "Property"]
+        },
+        "partnership": {
+            "name": "Partnership Agreement",
+            "description": "A business partnership contract defining contributions, profit distribution, decision-making, and dissolution terms.",
+            "tags": ["Commercial", "Partnership", "Business"]
+        },
+        "employment": {
+            "name": "Employment Contract",
+            "description": "An employee hiring agreement with position details, compensation, benefits, confidentiality, and termination terms.",
+            "tags": ["Employment", "Hiring", "HR"]
+        },
+        "loan": {
+            "name": "Loan Agreement",
+            "description": "A money lending contract with principal, interest rate, repayment schedule, and default provisions.",
+            "tags": ["Commercial", "Loan", "Finance"]
+        },
+        "website_tos": {
+            "name": "Website Terms of Service",
+            "description": "Legal terms governing website usage, user responsibilities, intellectual property, liability limitations, and privacy references.",
+            "tags": ["Services", "Website", "Legal"]
+        }
+    },
+    "generator": {
+        "back": "Back to Templates",
+        "optionalClauses": "Optional Clauses",
+        "legalChecklist": "Legal Checklist",
+        "preview": "Live Preview",
+        "exportMD": "📝 Markdown",
+        "exportPDF": "📄 PDF",
+        "previewPlaceholder": "Fill in the form to see your contract preview...",
+        "required": "Required",
+        "fieldRequired": "This field is required",
+        "fieldInvalidEmail": "Please enter a valid email address",
+        "fieldInvalidDate": "Please enter a valid date",
+        "fieldInvalidNumber": "Please enter a valid number"
+    },
+    "editor": {
+        "clauseLibrary": "Clause Library",
+        "clauseHint": "Click a clause to insert it into your contract",
+        "autoSaved": "Auto-saved",
+        "insertClause": "Insert Clause Block",
+        "insertVariable": "Insert Variable",
+        "insertSignature": "Insert Signature Block",
+        "insertDate": "Insert Current Date",
+        "clear": "Clear Editor",
+        "placeholder": "Start writing your custom contract here...",
+        "clearConfirm": "Are you sure you want to clear the editor? This cannot be undone.",
+        "variablePrompt": "Enter variable name (e.g., client_name):",
+        "clauseCategories": {
+            "general": "General",
+            "confidentiality": "Confidentiality",
+            "payment": "Payment & Financial",
+            "termination": "Termination",
+            "liability": "Liability & Indemnity",
+            "intellectual_property": "Intellectual Property"
+        }
+    },
+    "footer": {
+        "disclaimer": "⚠️ This tool does not provide legal advice. Consult a qualified attorney before signing any legal document.",
+        "github": "GitHub",
+        "license": "MIT License",
+        "madeWith": "Made with ❤️ for the open-source community"
+    },
+    "toast": {
+        "exportPdfSuccess": "PDF downloaded successfully!",
+        "exportMdSuccess": "Markdown file downloaded!",
+        "copySuccess": "Copied to clipboard!",
+        "languageChanged": "Language changed to English",
+        "editorCleared": "Editor cleared",
+        "editorSaved": "Draft auto-saved"
+    },
+    "fields": {
+        "party1_name": "Party 1 Name",
+        "party2_name": "Party 2 Name",
+        "discloser_name": "Disclosing Party Name",
+        "receiver_name": "Receiving Party Name",
+        "effective_date": "Effective Date",
+        "duration": "Duration",
+        "jurisdiction": "Jurisdiction",
+        "confidential_scope": "Scope of Confidential Information",
+        "client_name": "Client Name",
+        "freelancer_name": "Freelancer Name",
+        "scope_of_work": "Scope of Work",
+        "payment_amount": "Payment Amount",
+        "payment_currency": "Currency",
+        "payment_schedule": "Payment Schedule",
+        "deadline": "Deadline",
+        "revisions": "Number of Revisions Included",
+        "consultant_name": "Consultant Name",
+        "company_name": "Company Name",
+        "hourly_rate": "Hourly Rate",
+        "deliverables": "Deliverables",
+        "term": "Contract Term",
+        "buyer_name": "Buyer Name",
+        "seller_name": "Seller Name",
+        "items_description": "Items Description",
+        "total_price": "Total Price",
+        "delivery_date": "Delivery Date",
+        "warranty_period": "Warranty Period",
+        "landlord_name": "Landlord Name",
+        "tenant_name": "Tenant Name",
+        "property_address": "Property Address",
+        "monthly_rent": "Monthly Rent",
+        "start_date": "Start Date",
+        "end_date": "End Date",
+        "security_deposit": "Security Deposit",
+        "partner1_name": "Partner 1 Name",
+        "partner2_name": "Partner 2 Name",
+        "business_name": "Business Name",
+        "contributions": "Capital Contributions",
+        "profit_split": "Profit Split",
+        "employer_name": "Employer Name",
+        "employee_name": "Employee Name",
+        "position": "Job Position",
+        "salary": "Salary",
+        "benefits": "Benefits",
+        "lender_name": "Lender Name",
+        "borrower_name": "Borrower Name",
+        "loan_amount": "Loan Amount",
+        "interest_rate": "Interest Rate (%)",
+        "repayment_schedule": "Repayment Schedule",
+        "website_url": "Website URL",
+        "website_name": "Website / Company Name"
+    },
+    "clauses": {
+        "non_compete": {
+            "name": "Non-Compete Clause",
+            "desc": "Restricts parties from competing during and after the agreement."
+        },
+        "non_solicitation": {
+            "name": "Non-Solicitation Clause",
+            "desc": "Prevents hiring or soliciting employees/clients of the other party."
+        },
+        "intellectual_property": {
+            "name": "Intellectual Property Assignment",
+            "desc": "Assigns all created IP to the hiring party."
+        },
+        "indemnification": {
+            "name": "Indemnification Clause",
+            "desc": "One party agrees to compensate the other for losses or damages."
+        },
+        "force_majeure": {
+            "name": "Force Majeure",
+            "desc": "Excuses performance obligations due to extraordinary events."
+        },
+        "dispute_resolution": {
+            "name": "Dispute Resolution",
+            "desc": "Specifies arbitration or mediation before litigation."
+        },
+        "late_payment": {
+            "name": "Late Payment Penalty",
+            "desc": "Defines penalties for payments made after the due date."
+        },
+        "early_termination": {
+            "name": "Early Termination",
+            "desc": "Allows either party to end the agreement before the term expires."
+        },
+        "governing_law": {
+            "name": "Governing Law",
+            "desc": "Specifies which jurisdiction's laws govern the contract."
+        },
+        "entire_agreement": {
+            "name": "Entire Agreement",
+            "desc": "States this contract supersedes all prior agreements."
+        },
+        "amendments": {
+            "name": "Amendments",
+            "desc": "Changes must be in writing and signed by both parties."
+        },
+        "severability": {
+            "name": "Severability",
+            "desc": "If one provision is invalid, the rest remain enforceable."
+        },
+        "confidentiality_obligation": {
+            "name": "Confidentiality Obligation",
+            "desc": "Receiving party must protect confidential information."
+        },
+        "return_of_materials": {
+            "name": "Return of Materials",
+            "desc": "All confidential materials must be returned upon termination."
+        },
+        "ip_ownership": {
+            "name": "IP Ownership",
+            "desc": "All work product belongs to the hiring party."
+        },
+        "warranty_disclaimer": {
+            "name": "Warranty Disclaimer",
+            "desc": "Limits warranties to only those explicitly stated."
+        },
+        "limitation_of_liability": {
+            "name": "Limitation of Liability",
+            "desc": "Caps the total liability to the contract value."
+        },
+        "notice_requirements": {
+            "name": "Notice Requirements",
+            "desc": "Specifies how formal notices must be delivered."
+        }
+    },
+    "checklist": {
+        "parties_identified": "All parties clearly identified with full legal names",
+        "dates_specified": "Effective date and term/duration specified",
+        "obligations_clear": "Obligations of each party clearly defined",
+        "payment_terms": "Payment terms, amounts, and schedules specified",
+        "termination_conditions": "Termination conditions and notice periods defined",
+        "jurisdiction_stated": "Governing law and jurisdiction stated",
+        "signatures_prepared": "Signature lines prepared for all parties",
+        "review_attorney": "Contract reviewed by a qualified attorney (recommended)",
+        "copies_distributed": "Copies to be distributed to all parties after signing"
+    },
+    "contractContent": {
+        "preamble": "This Agreement (\"Agreement\") is entered into as of {{effective_date}} (\"Effective Date\") by and between:",
+        "and": "and",
+        "recitals": "WHEREAS, the parties wish to enter into this Agreement under the following terms and conditions:",
+        "now_therefore": "NOW, THEREFORE, in consideration of the mutual covenants and agreements set forth herein, the parties agree as follows:",
+        "signatures_header": "IN WITNESS WHEREOF, the parties have executed this Agreement as of the Effective Date.",
+        "signature": "Signature",
+        "printed_name": "Printed Name",
+        "date": "Date"
+    }
+}

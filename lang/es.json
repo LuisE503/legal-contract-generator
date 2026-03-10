@@ -1,0 +1,287 @@
+{
+    "meta": { "title": "LegalForge — Generador de Contratos Legales", "description": "Genera contratos legales profesionales a partir de plantillas personalizables. Exporta a PDF o Markdown. Gratis, código abierto y 100% en tu navegador." },
+    "appName": "LegalForge",
+    "nav": {
+        "home": "Inicio",
+        "templates": "Plantillas",
+        "editor": "Editor"
+    },
+    "hero": {
+        "badge": "100% Gratuito y Código Abierto",
+        "title": "Genera Contratos Legales Profesionales en Minutos",
+        "subtitle": "Elige entre más de 10 plantillas personalizables, completa tus datos y exporta a PDF o Markdown. Todo funciona en tu navegador — ningún dato se envía a un servidor.",
+        "cta": "Ver Plantillas",
+        "ctaEditor": "Editor Personalizado",
+        "statTemplates": "Plantillas",
+        "statLanguages": "Idiomas",
+        "statServers": "Servidores Necesarios"
+    },
+    "features": {
+        "title": "Cómo Funciona",
+        "step1Title": "1. Elige una Plantilla",
+        "step1Desc": "Explora nuestra biblioteca de más de 10 plantillas profesionales de contratos que cubren NDAs, servicios, ventas y más.",
+        "step2Title": "2. Completa los Datos",
+        "step2Desc": "Ingresa nombres de las partes, fechas, montos y selecciona cláusulas opcionales. Ve una vista previa en tiempo real mientras escribes.",
+        "step3Title": "3. Exporta y Usa",
+        "step3Desc": "Descarga tu contrato como un PDF profesional o archivo Markdown. Listo para revisión y firmas."
+    },
+    "disclaimer": {
+        "text": "Esta herramienta genera plantillas de contratos solo con fines informativos. No proporciona asesoría legal. Siempre consulta a un abogado calificado antes de firmar cualquier documento legal."
+    },
+    "templates": {
+        "title": "Plantillas de Contratos",
+        "subtitle": "Selecciona una plantilla para comenzar a generar tu contrato",
+        "filterAll": "Todos",
+        "filterNDA": "NDA",
+        "filterServices": "Servicios",
+        "filterCommercial": "Comercial",
+        "filterEmployment": "Empleo",
+        "nda_mutual": {
+            "name": "NDA Mutuo",
+            "description": "Un acuerdo bilateral de confidencialidad donde ambas partes acuerdan proteger la información compartida.",
+            "tags": ["NDA", "Confidencialidad", "Bilateral"]
+        },
+        "nda_unilateral": {
+            "name": "NDA Unilateral",
+            "description": "Un acuerdo de confidencialidad unilateral donde una parte divulga información y la otra acuerda mantenerla en secreto.",
+            "tags": ["NDA", "Confidencialidad", "Unilateral"]
+        },
+        "freelance_services": {
+            "name": "Servicios Freelance",
+            "description": "Un contrato de contratista independiente que cubre alcance del trabajo, términos de pago, plazos y propiedad intelectual.",
+            "tags": ["Servicios", "Freelance", "Contratista"]
+        },
+        "consulting": {
+            "name": "Acuerdo de Consultoría",
+            "description": "Un contrato profesional de consultoría con entregables, tarifas y términos de confidencialidad.",
+            "tags": ["Servicios", "Consultoría", "Profesional"]
+        },
+        "sale_of_goods": {
+            "name": "Compraventa de Bienes",
+            "description": "Un contrato de compra que cubre especificaciones del producto, precios, términos de entrega y condiciones de garantía.",
+            "tags": ["Comercial", "Venta", "Productos"]
+        },
+        "lease_rental": {
+            "name": "Contrato de Arrendamiento",
+            "description": "Un contrato de alquiler de propiedad con términos de renta, depósitos, responsabilidades de mantenimiento y condiciones de terminación.",
+            "tags": ["Comercial", "Arrendamiento", "Propiedad"]
+        },
+        "partnership": {
+            "name": "Acuerdo de Sociedad",
+            "description": "Un contrato de sociedad comercial que define contribuciones, distribución de ganancias, toma de decisiones y términos de disolución.",
+            "tags": ["Comercial", "Sociedad", "Negocio"]
+        },
+        "employment": {
+            "name": "Contrato de Empleo",
+            "description": "Un acuerdo de contratación con detalles del puesto, compensación, beneficios, confidencialidad y términos de terminación.",
+            "tags": ["Empleo", "Contratación", "RRHH"]
+        },
+        "loan": {
+            "name": "Contrato de Préstamo",
+            "description": "Un contrato de préstamo de dinero con capital, tasa de interés, calendario de pagos y provisiones por incumplimiento.",
+            "tags": ["Comercial", "Préstamo", "Finanzas"]
+        },
+        "website_tos": {
+            "name": "Términos de Servicio Web",
+            "description": "Términos legales que rigen el uso del sitio web, responsabilidades del usuario, propiedad intelectual y limitaciones de responsabilidad.",
+            "tags": ["Servicios", "Sitio Web", "Legal"]
+        }
+    },
+    "generator": {
+        "back": "Volver a Plantillas",
+        "optionalClauses": "Cláusulas Opcionales",
+        "legalChecklist": "Lista de Verificación Legal",
+        "preview": "Vista Previa en Vivo",
+        "exportMD": "📝 Markdown",
+        "exportPDF": "📄 PDF",
+        "previewPlaceholder": "Completa el formulario para ver la vista previa de tu contrato...",
+        "required": "Requerido",
+        "fieldRequired": "Este campo es requerido",
+        "fieldInvalidEmail": "Por favor ingrese una dirección de correo válida",
+        "fieldInvalidDate": "Por favor ingrese una fecha válida",
+        "fieldInvalidNumber": "Por favor ingrese un número válido"
+    },
+    "editor": {
+        "clauseLibrary": "Biblioteca de Cláusulas",
+        "clauseHint": "Haz clic en una cláusula para insertarla en tu contrato",
+        "autoSaved": "Guardado automático",
+        "insertClause": "Insertar Bloque de Cláusula",
+        "insertVariable": "Insertar Variable",
+        "insertSignature": "Insertar Bloque de Firma",
+        "insertDate": "Insertar Fecha Actual",
+        "clear": "Limpiar Editor",
+        "placeholder": "Comienza a escribir tu contrato personalizado aquí...",
+        "clearConfirm": "¿Estás seguro de que deseas limpiar el editor? Esta acción no se puede deshacer.",
+        "variablePrompt": "Ingresa el nombre de la variable (ej: nombre_cliente):",
+        "clauseCategories": {
+            "general": "General",
+            "confidentiality": "Confidencialidad",
+            "payment": "Pago y Finanzas",
+            "termination": "Terminación",
+            "liability": "Responsabilidad e Indemnización",
+            "intellectual_property": "Propiedad Intelectual"
+        }
+    },
+    "footer": {
+        "disclaimer": "⚠️ Esta herramienta no proporciona asesoría legal. Consulta a un abogado calificado antes de firmar cualquier documento legal.",
+        "github": "GitHub",
+        "license": "Licencia MIT",
+        "madeWith": "Hecho con ❤️ para la comunidad de código abierto"
+    },
+    "toast": {
+        "exportPdfSuccess": "¡PDF descargado exitosamente!",
+        "exportMdSuccess": "¡Archivo Markdown descargado!",
+        "copySuccess": "¡Copiado al portapapeles!",
+        "languageChanged": "Idioma cambiado a Español",
+        "editorCleared": "Editor limpiado",
+        "editorSaved": "Borrador guardado automáticamente"
+    },
+    "fields": {
+        "party1_name": "Nombre de la Parte 1",
+        "party2_name": "Nombre de la Parte 2",
+        "discloser_name": "Nombre de la Parte Divulgadora",
+        "receiver_name": "Nombre de la Parte Receptora",
+        "effective_date": "Fecha de Vigencia",
+        "duration": "Duración",
+        "jurisdiction": "Jurisdicción",
+        "confidential_scope": "Alcance de la Información Confidencial",
+        "client_name": "Nombre del Cliente",
+        "freelancer_name": "Nombre del Freelancer",
+        "scope_of_work": "Alcance del Trabajo",
+        "payment_amount": "Monto del Pago",
+        "payment_currency": "Moneda",
+        "payment_schedule": "Calendario de Pagos",
+        "deadline": "Fecha Límite",
+        "revisions": "Número de Revisiones Incluidas",
+        "consultant_name": "Nombre del Consultor",
+        "company_name": "Nombre de la Empresa",
+        "hourly_rate": "Tarifa por Hora",
+        "deliverables": "Entregables",
+        "term": "Plazo del Contrato",
+        "buyer_name": "Nombre del Comprador",
+        "seller_name": "Nombre del Vendedor",
+        "items_description": "Descripción de los Artículos",
+        "total_price": "Precio Total",
+        "delivery_date": "Fecha de Entrega",
+        "warranty_period": "Período de Garantía",
+        "landlord_name": "Nombre del Arrendador",
+        "tenant_name": "Nombre del Arrendatario",
+        "property_address": "Dirección de la Propiedad",
+        "monthly_rent": "Renta Mensual",
+        "start_date": "Fecha de Inicio",
+        "end_date": "Fecha de Fin",
+        "security_deposit": "Depósito de Seguridad",
+        "partner1_name": "Nombre del Socio 1",
+        "partner2_name": "Nombre del Socio 2",
+        "business_name": "Nombre del Negocio",
+        "contributions": "Contribuciones de Capital",
+        "profit_split": "Distribución de Ganancias",
+        "employer_name": "Nombre del Empleador",
+        "employee_name": "Nombre del Empleado",
+        "position": "Puesto de Trabajo",
+        "salary": "Salario",
+        "benefits": "Beneficios",
+        "lender_name": "Nombre del Prestamista",
+        "borrower_name": "Nombre del Prestatario",
+        "loan_amount": "Monto del Préstamo",
+        "interest_rate": "Tasa de Interés (%)",
+        "repayment_schedule": "Calendario de Pagos",
+        "website_url": "URL del Sitio Web",
+        "website_name": "Nombre del Sitio Web / Empresa"
+    },
+    "clauses": {
+        "non_compete": {
+            "name": "Cláusula de No Competencia",
+            "desc": "Restringe a las partes de competir durante y después del acuerdo."
+        },
+        "non_solicitation": {
+            "name": "Cláusula de No Solicitud",
+            "desc": "Prohíbe contratar o solicitar empleados/clientes de la otra parte."
+        },
+        "intellectual_property": {
+            "name": "Cesión de Propiedad Intelectual",
+            "desc": "Cede toda la PI creada a la parte contratante."
+        },
+        "indemnification": {
+            "name": "Cláusula de Indemnización",
+            "desc": "Una parte acepta compensar a la otra por pérdidas o daños."
+        },
+        "force_majeure": {
+            "name": "Fuerza Mayor",
+            "desc": "Exime las obligaciones de desempeño debido a eventos extraordinarios."
+        },
+        "dispute_resolution": {
+            "name": "Resolución de Disputas",
+            "desc": "Especifica arbitraje o mediación antes de litigio."
+        },
+        "late_payment": {
+            "name": "Penalización por Pago Tardío",
+            "desc": "Define penalizaciones por pagos realizados después de la fecha de vencimiento."
+        },
+        "early_termination": {
+            "name": "Terminación Anticipada",
+            "desc": "Permite a cualquier parte finalizar el acuerdo antes de que expire el plazo."
+        },
+        "governing_law": {
+            "name": "Ley Aplicable",
+            "desc": "Especifica qué leyes de jurisdicción rigen el contrato."
+        },
+        "entire_agreement": {
+            "name": "Acuerdo Completo",
+            "desc": "Establece que este contrato reemplaza todos los acuerdos previos."
+        },
+        "amendments": {
+            "name": "Enmiendas",
+            "desc": "Los cambios deben ser por escrito y firmados por ambas partes."
+        },
+        "severability": {
+            "name": "Divisibilidad",
+            "desc": "Si una disposición es inválida, las demás siguen siendo aplicables."
+        },
+        "confidentiality_obligation": {
+            "name": "Obligación de Confidencialidad",
+            "desc": "La parte receptora debe proteger la información confidencial."
+        },
+        "return_of_materials": {
+            "name": "Devolución de Materiales",
+            "desc": "Todos los materiales confidenciales deben ser devueltos al finalizar."
+        },
+        "ip_ownership": {
+            "name": "Propiedad de PI",
+            "desc": "Todo el trabajo producido pertenece a la parte contratante."
+        },
+        "warranty_disclaimer": {
+            "name": "Descargo de Garantía",
+            "desc": "Limita las garantías solo a las explícitamente declaradas."
+        },
+        "limitation_of_liability": {
+            "name": "Limitación de Responsabilidad",
+            "desc": "Limita la responsabilidad total al valor del contrato."
+        },
+        "notice_requirements": {
+            "name": "Requisitos de Notificación",
+            "desc": "Especifica cómo deben entregarse las notificaciones formales."
+        }
+    },
+    "checklist": {
+        "parties_identified": "Todas las partes claramente identificadas con nombres legales completos",
+        "dates_specified": "Fecha de vigencia y plazo/duración especificados",
+        "obligations_clear": "Obligaciones de cada parte claramente definidas",
+        "payment_terms": "Términos de pago, montos y calendarios especificados",
+        "termination_conditions": "Condiciones de terminación y períodos de aviso definidos",
+        "jurisdiction_stated": "Ley aplicable y jurisdicción establecidas",
+        "signatures_prepared": "Líneas de firma preparadas para todas las partes",
+        "review_attorney": "Contrato revisado por un abogado calificado (recomendado)",
+        "copies_distributed": "Copias distribuidas a todas las partes después de la firma"
+    },
+    "contractContent": {
+        "preamble": "Este Acuerdo (\"Acuerdo\") se celebra a partir del {{effective_date}} (\"Fecha de Vigencia\") entre:",
+        "and": "y",
+        "recitals": "CONSIDERANDO QUE, las partes desean celebrar este Acuerdo bajo los siguientes términos y condiciones:",
+        "now_therefore": "POR LO TANTO, en consideración de los pactos y acuerdos mutuos establecidos en el presente, las partes acuerdan lo siguiente:",
+        "signatures_header": "EN TESTIMONIO DE LO CUAL, las partes han ejecutado este Acuerdo a partir de la Fecha de Vigencia.",
+        "signature": "Firma",
+        "printed_name": "Nombre Impreso",
+        "date": "Fecha"
+    }
+}
